@@ -1,0 +1,81 @@
+.bg2{
+    background-image: url('img1 (11).jpg');
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+    
+}
+.bg3{
+    background-image: url('img1 (8).jpg');
+    width: 92%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 250px;
+    
+    
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+ .bg{
+    background-image: url('head3.jpg');
+    width: 87%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   margin-top: 12%;
+   border-left: 1px solid red;
+   border-right: 1px solid red;
+    
+}
+.bg3{
+    width: 400px;
+    height: 350px;
+    
+    
+    
+    
+}
+
+}
+@media screen and (min-width: 1024px) {
+ .bg{
+    padding-top: 1%;
+    padding-left: 2%;
+    margin-top: 9%;
+    width: 90%;
+}
+.bg3{
+    width: 700px;
+    
+    
+    
+    
+    
+}
+
+}
+.scales{
+    
+    width: 50%;
+    position: relative;
+    z-index: 5;
+    animation: leaves 5s ease-in-out infinite alternate;
+}
+@keyframes leaves {
+        0% {
+            transform: scale(3.0);
+            -webkit-transform: scale(1.0);
+        }
+        100% {
+            transform: scale(5.0);
+            -webkit-transform: scale(2.0);
+        }
+    }
